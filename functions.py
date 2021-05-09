@@ -63,7 +63,7 @@ def decodify_page():
             print(f"{x} = {y}")
         print("\nYou've inserted: ", "".join(morse_char))
         print("Translation: ", "".join(text))
-        choice = input("\n\nEnter your morse code using the menu down below:\n\n1 Enter \".\" (dot)\n2 Enter \"-\" (dash)\n 3 End character \n4 End word\n5Erase last element \n6 Erase last translated letter\n7 Quit\nEnter your option: ")
+        choice = input("\n\nEnter your morse code using the menu down below:\n\n1 Enter \".\" (dot)\n2 Enter \"-\" (dash)\n 3 End character \n4 End word\n5 Erase last element \n6 Erase last translated letter\n7 Quit\nEnter your option: ")
 
         if choice == "1":
             morse_char.append(".")
